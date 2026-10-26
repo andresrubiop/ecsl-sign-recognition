@@ -29,6 +29,10 @@ This public edition releases **source code, tests and aggregate evaluation**. It
 
 These values come from a recorded V100 training run, not a new experiment performed for this release. See [aggregate results and provenance](results/nested-loso-summary.json). With five signers and a restricted vocabulary, this is not evidence of general sign-language translation or performance on a new population. Final-refit training accuracy must not be reported as held-out performance.
 
+## Data
+
+The original pipeline cites the open [AI-Ready Ecuadorian Sign Language Corpus](https://zenodo.org/records/21001360), published under CC BY 4.0. Obtain data from the record, retain its attribution and verify that your use matches its documentation. Videos are not mirrored in this repository.
+
 ## Install and run
 
 Use Python **3.10–3.12**. For CPU unit tests, install a CPU build of PyTorch first; for training, choose a compatible CUDA build using the official PyTorch instructions.
