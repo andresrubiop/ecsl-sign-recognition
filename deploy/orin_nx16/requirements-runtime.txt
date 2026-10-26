@@ -1,0 +1,8 @@
+# Dependencias Python puras del runtime Jetson. PyTorch, MediaPipe y OpenCV se
+# instalan por rutas separadas para no sustituir las compilaciones ARM64/CUDA y
+# GStreamer de JetPack.
+absl-py==2.1.0
+attrs==23.2.0
+flatbuffers==24.3.25
+numpy==1.26.1
+protobuf==4.25.3

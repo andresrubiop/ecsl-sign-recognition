@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pfrutas"
+version = "0.2.0"
+description = "Reconocimiento en vivo de señas de frutas mediante MediaPipe y BiLSTM"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "matplotlib>=3.9,<4",
+    "mediapipe==0.10.21",
+    "numpy>=1.26,<2",
+    "opencv-contrib-python>=4.10,<5",
+    "pyyaml>=6,<7",
+    "scikit-learn>=1.5,<2",
+    "torch>=2.4,<3",
+    "tqdm>=4.66,<5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+
+[project.scripts]
+pfrutas = "pfrutas.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

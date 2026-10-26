@@ -1,0 +1,9 @@
+# Se recomienda instalar el proyecto con: uv pip install -e .
+matplotlib>=3.9,<4
+mediapipe==0.10.21
+numpy>=1.26,<2
+opencv-contrib-python>=4.10,<5
+PyYAML>=6,<7
+scikit-learn>=1.5,<2
+torch>=2.4,<3
+tqdm>=4.66,<5

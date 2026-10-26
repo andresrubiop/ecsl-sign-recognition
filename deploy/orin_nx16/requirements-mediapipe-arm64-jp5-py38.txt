@@ -1,0 +1,4 @@
+# Último wheel oficial de MediaPipe con Linux ARM64 para CPython 3.8. Se instala
+# con --no-deps para conservar el OpenCV de JetPack y sus plugins GStreamer.
+# MediaPipe 0.10.5 exige protobuf < 4; el archivo runtime-jp5-py38 fija 3.20.3.
+mediapipe @ https://files.pythonhosted.org/packages/3d/32/624d3227752abe3d71ce5f3e97e5a1c8e191fb4b9620b6a3b735d6ab621a/mediapipe-0.10.5-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl --hash=sha256:89bf0c7a31b69cca836467099eed67614025eb57c8f3d0f0b84599e4d4d27956
